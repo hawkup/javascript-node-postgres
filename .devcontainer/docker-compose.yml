@@ -36,7 +36,7 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_USER: postgres
       POSTGRES_DB: postgres
-    posts:
+    ports:
       - 5432:5432
 
     # Add "forwardPorts": ["5432"] to **devcontainer.json** to forward MongoDB locally.
